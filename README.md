@@ -23,7 +23,9 @@ I have modified the spreadsheet  and am making it available here, with Mike Sand
 
 5) **NOTE:** there is a macro which will recolor the cells in the blocks for Feb-Dec to match Jan.  If you don't like macros, or think it's over the top, or would prefer to highlight different cells for different months, then deleting or disabling the macro has no numeric effects anywhere in the sheet - it's just to color those cells.
 
-6) The formula in cell B20 of the Fed Tax tab  is modified so that lowballing your estimated taxes will not get you in trouble.  If you've made more than you estimated, then it will use that instead of your estimate.  
+6) The formula in cell B21 of the Fed Tax tab  is modified so that lowballing your estimated taxes will not get you in trouble.  If you've made more than you estimated, then it will use that instead of your estimate.  
+
+7) New for 2023 - The federal estimation tab adds a self-employment estimation, and treats Business and Other income from the quarterly tab as self-employment income.  It will calculate  the SE Tax owed to the Fed, and will show higher effective tax rates from this.  The payments include the SE Tax owed. 
 
 ## How to use this spreadsheet
 
