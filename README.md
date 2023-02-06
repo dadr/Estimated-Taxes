@@ -25,7 +25,7 @@ I have modified the spreadsheet  and am making it available here, with Mike Sand
 
 6) The formula in cell B21 of the Fed Tax tab  is modified so that lowballing your estimated taxes will not get you in trouble.  If you've made more than you estimated, then it will use that instead of your estimate.  
 
-7) New for 2023 - The federal estimation tab adds a self-employment estimation, and treats Business and Other income from the quarterly tab as self-employment income.  It will calculate  the SE Tax owed to the Fed, and will show higher effective tax rates from this.  The payments include the SE Tax owed. 
+7) New for 2023 - The federal estimation tab adds a self-employment estimation, and treats Business and Other income from the quarterly tab as self-employment income.  It will calculate  the SE Tax owed to the Fed, and will show higher effective tax rates from this.  The payments include the SE Tax owed.   The Quarterly Income Tab adds monthly boxes to input wages, taxes withheld, and Other Business Income.  These are now calculated boxes for each quarter.
 
 ## How to use this spreadsheet
 
