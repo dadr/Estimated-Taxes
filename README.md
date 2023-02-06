@@ -13,9 +13,9 @@ I have modified the spreadsheet  and am making it available here, with Mike Sand
 
 ## Summary of changes from the original spreadsheet
 
-1) The tab for CA is removed and replaced with GA - GA starts their taxes from the Fed AGI, so that calculation is a little different from the original.  (GA also has a different deduction structure, and forgives some income in retirement.)  Those fields have been relabeled.   
+1) The tab for CA is removed and replaced with GA - GA starts their taxes from the Fed AGI, so that calculation is a little different from the original.  (GA also has a different deduction structure, and forgives some income in retirement.)  Those fields have been relabeled.   ALSO note that GA does not tax Social Security, but this version of the spreadsheet has not been modified to take that into account.  I suppose I'll make those changes when I start getting a SS payment.
 
-2) This spreadsheet is updated for 2022 tax tables from the 2021 version I used.   Each year will require updates for these tables and deductions.  GA has changes in 2022, and Internet searches for those changes yield a lot of different results.  I have based the numbers from my best reasoning against the instructions in the tax booklet published for GA for 2022.  Please take care that you feel comfortable with those tables and deductions.
+2) This spreadsheet is updated for 2023 tax tables from the 2021 version I used.   Each year will require updates for these tables and deductions.  GA has changes in 2023, and Internet searches for those changes yield a lot of different results.  I have based the numbers from my best reasoning against the instructions in the tax booklet published for GA for 2022.  Please take care that you feel comfortable with those tables and deductions.
 
 3) New monthly input sections in the Quarterly income tab.  If you edit the names for Jan, that will propagate to the other months.  There's also a YTD summary so you can reconcile against those figures in your statements.
 
