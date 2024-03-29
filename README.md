@@ -39,6 +39,8 @@ As you get income, you should enter that monthly, in the Quarterly Income tab.
 
 If you have various accounts with brokerages, companies, banks or credit unions, then enter the account names in the Quarterly Income tab in the highlighted section under JAN.   The names you enter there are copied to the other months automatically.
 
+Similarly, for Jobs where you get a paycheck, or those where you are a contractor, you can enter the job like the previous accounts.  There are columns for you to enter wages, taxes that were withheld and self-employment income.  For self employment business expenses, I include a row labled Expenses, and then enter my expenses as negative self-employment income.
+
 For these accounts, once you enter an amount in the JAN block (even $0) the sheet will highlight that block and all the same blocks in other months to show where you expect to see income.   For example, you enter interest for a bank in January, and the sheet will highlight the interest cell for that bank for the rest of the year.
 
 The Overview tab will tell you if you have paid what you owe.  If not, then you will have to make your estimated payments.  Those are recorded by quarter on the quarterly income tab - and there is a handy cell where you can enter your confirmation numbers there.
