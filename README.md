@@ -11,21 +11,23 @@ I have modified the spreadsheet  and am making it available here, with Mike Sand
 
 **NOTE:**  I am not an accountant or CPA.  Just using this to try to make my life easier.
 
-## Summary of changes from the original spreadsheet
+## Summary of changes from the original spreadsheet(s)
 
 1) The tab for CA is removed and replaced with GA - GA starts their taxes from the Fed AGI, so that calculation is a little different from the original.  (GA also has a different deduction structure, and forgives some income in retirement.)  Those fields have been relabeled.   ALSO note that GA does not tax Social Security, but this version of the spreadsheet has not been modified to take that into account.  I suppose I'll make those changes when I start getting a SS payment.
 
-2) This spreadsheet is updated for 2023 tax tables from the 2021 version I used.   Each year will require updates for these tables and deductions.  GA has changes in 2023, and Internet searches for those changes yield a lot of different results.  I have based the numbers from my best reasoning against the instructions in the tax booklet published for GA for 2022.  Please take care that you feel comfortable with those tables and deductions.
+2) This spreadsheet is updated for 2024 tax tables from the previous versions.   Each year will require updates for these tables and deductions.  GA has major changes in 2024, and Internet searches for those changes yield a lot of different results.  I have based the numbers from GA sources, or if not available, then the most conservative online source. There is not yet a tax booklet published for GA for 2024.  Please take care that you feel comfortable with those tables and deductions.
 
-3) New monthly input sections in the Quarterly income tab.  If you edit the names for Jan, that will propagate to the other months.  There's also a YTD summary so you can reconcile against those figures in your statements.
+3) New monthly input sections in the Quarterly income tab.  If you edit the names for the rows in Jan, that will propagate to the other months.  Also, once you enter a value in January, there is conditional formatting to highlight that cell in subsequent months.  This replaces the macro that did a similar thing in previous spreadsheets. There's also a YTD summary so you can reconcile against those figures in your statements.
 
 4) I also added a reminder for the Jan est payment that your last years' tax refund can be applied to this year (I do this).  
 
-5) **NOTE:** there is a macro which will recolor the cells in the blocks for Feb-Dec to match Jan.  If you don't like macros, or think it's over the top, or would prefer to highlight different cells for different months, then deleting or disabling the macro has no numeric effects anywhere in the sheet - it's just to color those cells.
+5) **NOTE:** There is no more macro.  It's deleted and was a major hassle.  See #3 above.
 
 6) The formula in cell B21 of the Fed Tax tab  is modified so that lowballing your estimated taxes will not get you in trouble.  If you've made more than you estimated, then it will use that instead of your estimate.  
 
-7) New for 2023 - The federal estimation tab adds a self-employment estimation, and treats Business and Other income from the quarterly tab as self-employment income.  It will calculate  the SE Tax owed to the Fed, and will show higher effective tax rates from this.  The payments include the SE Tax owed.   The Quarterly Income Tab adds monthly boxes to input wages, taxes withheld, and Other Business Income.  These are now calculated boxes for each quarter.
+7) New for 2023 - The federal estimation tab adds a self-employment estimation, and treats Business and Other income from the quarterly tab as self-employment income.  It will calculate  the SE Tax owed to the Fed, and will show higher effective tax rates from this.  The payments include the SE Tax owed.   The Quarterly Income Tab adds monthly boxes to input wages, taxes withheld, and Other Business Income.  These are now calculated boxes for each quarter.  The 2024 spreadsheet also calculates that you will deduct 50% of your Self Employment tax from your regular income tax.  I'm still trying to figure out whether there is a common 20% business income deduction that should become part of the spreadsheet.
+
+8) New for 2024 - The file format for the spreadsheet is now .ods - as I'm using LibreOffice Calc as my main spreadsheet.  Excel users should still be able to make use of this file format.
 
 ## How to use this spreadsheet
 
@@ -33,13 +35,11 @@ Yellow highlighted cells are places where you should input your data.  Green hig
 
 If you have an estimate on wages or other earned income that you are expecting this year, then enter that in the Federal Income Tax tab at the top left.
 
-As you actually get earned income, you should enter that quarterly, in the Quarterly Income tab.  
+As you get income, you should enter that monthly, in the Quarterly Income tab.  
 
 If you have various accounts with brokerages, companies, banks or credit unions, then enter the account names in the Quarterly Income tab in the highlighted section under JAN.   The names you enter there are copied to the other months automatically.
 
-For these accounts, you can change the highlighting in the JAN block to show where you expect to see income.   For example, it might make sense to only highlight the Interest cell for Banks and Credit Unions if that is the only sort of income you get from those institutions.   Or alternately, if you are given restricted stock shares or grants, then you might only highlight the Dividends for that account.   If you leave the macro intact, then when you re-color the cells in Jan, the macro will recolor the other months to match.
-
-**Note:**  I'm stll not certain that the macro is worth it.  For example, if your stock pays dividends quarterly, then you might prefer to only highlight the months where you expect to get dividends from that stock.   Also, I will typically NOT open strange spreadsheets with macros enabled.  So, maybe it's better to just set all the highlights manually and remove the macro.  I still haven't decided.  
+For these accounts, once you enter an amount in the JAN block (even $0) the sheet will highlight that block and all the same blocks in other months to show where you expect to see income.   For example, you enter interest for a bank in January, and the sheet will highlight the interest cell for that bank for the rest of the year.
 
 The Overview tab will tell you if you have paid what you owe.  If not, then you will have to make your estimated payments.  Those are recorded by quarter on the quarterly income tab - and there is a handy cell where you can enter your confirmation numbers there.
 
